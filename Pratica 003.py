@@ -1,3 +1,5 @@
+#Programa que pede para o usuario digitar um numero e logo apos vai expressar esse(s) numero(s) em formato de lista e em formato de tupla
+
 lista = []
 while True:
     n = int(input("Digite um numero: "))
