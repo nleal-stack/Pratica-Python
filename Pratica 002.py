@@ -1,3 +1,4 @@
+#Programa que pede numeros e que eh pra imprimir esse dado numero e seu fatorial ao lado. Ex: [8, 40320]
 while True:
     lista = []
     lista2 = []
