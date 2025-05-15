@@ -1,4 +1,13 @@
-frase = input("Digite uma frase da forma que desejar: ")
-maiuscula = frase.upper()
+lista = []
+while True:
+    palavra = input("Digite uma palavra desejada aqui: ")
+    lista.append(palavra)
 
-print(f"A frase escrita foi: {maiuscula}")
+    continuar = input("Deseja adicionar mais alguma palavra na frase? [s/n]: ")
+    if continuar != 's':
+        break
+
+palavras_ordenadas = sorted(lista, key=str.lower)
+frase_ordenada = " ".join(palavras_ordenadas)
+
+print(f"A frase escrita, agora ordenada, foi: {frase_ordenada}")

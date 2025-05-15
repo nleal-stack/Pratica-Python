@@ -1,15 +1,15 @@
-import math
-
-lista_d = []
+lista = []
 while True:
-    valor_d = int(input("Digite um valor desejado para D: "))
-    lista_d.append(valor_d)
+    palavra = str(input("Escreva qualquer palavra que voce desejar aqui: "))
+    lista.append(palavra)
 
-    continuar = input("Deseja adicionar mais valores para D na lista? [s/n]: ")
+    continuar = input("Deseja adicionar mais palavras a lista? [s/n]: ")
     if continuar != 's':
         break
 
-for D in lista_d:
-    Q = ((10 * D) / 3)
-    resultados = math.sqrt(Q)
-    print(f"Quando D = {D}, Q = {resultados}")
+palavras_ordenadas = sorted(lista)
+lista_ordenada = []
+lista_ordenada.append(palavras_ordenadas)
+
+for nome in lista_ordenada:
+    print(lista, nome)
